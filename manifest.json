@@ -1,0 +1,25 @@
+{
+    "name": "Gold Hosting GPanel (Admin)",
+    "version": "2.2",
+    "manifest_version": 2,
+    "description": "Extenzija koja pokazuje broj trenutno otvorenih tiketa",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "permissions": [
+        "http://www.gold-hosting.me/"
+    ],
+    "options_ui": {
+		"page": "options/options.html",
+		"browser_style": true
+	},
+    "background": {
+        "page": "background/background.html"
+    },
+    "browser_action": {
+        "default_icon": "images/kgb.png",
+        "default_popup": "popup/popup.html"
+    }
+}
